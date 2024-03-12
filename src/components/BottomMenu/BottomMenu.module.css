@@ -1,0 +1,18 @@
+.container {
+  position: fixed;
+  right: 0;
+  bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.container select,
+.container input,
+.container button {
+  font-size: 20px;
+  padding: 5px 20px;
+}
+
+.container input[type*="text"] {
+  width: 250px;
+}
